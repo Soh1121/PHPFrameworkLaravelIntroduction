@@ -35,7 +35,7 @@ h1 {
 </body>
 </html>
 EOF;
-        $response->setContent($html)
-        return $response
+        $response->setContent($html);
+        return $response;
     }
 }
