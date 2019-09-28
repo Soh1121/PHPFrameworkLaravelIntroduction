@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Hello/Index</title>
-    <sytle>
+    <style>
       body {
         font-size: 16pt;
         color: #999;
@@ -12,7 +12,7 @@
         color: #f6f6f6;
         margin: -50px 0 -100px 0;
       }
-    </sytle>
+    </style>
   </head>
   <body>
     <h1>Index</h1>
