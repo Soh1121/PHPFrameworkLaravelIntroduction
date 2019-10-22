@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// use App\Http\Middleware\HelloMiddleware; を追記
+
 Route::get('hello', 'HelloController@index')->middleware(HelloMiddleware::class);
