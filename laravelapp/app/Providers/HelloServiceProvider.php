@@ -3,7 +3,7 @@ namespace App\Providers;
 
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Validation\Validator;
+use Validator;
 use App\Http\Validators\HelloValidator;
 
 class HelloServiceProvider extends ServiceProvider
