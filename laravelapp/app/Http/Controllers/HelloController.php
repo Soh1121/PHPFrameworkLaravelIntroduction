@@ -73,8 +73,11 @@ class HelloController extends Controller
 
     public function show(Request $request)
     {
+        $page = $request->page;
         $items = DB::table('people')
-            ->orderBy('age', 'asc')->get();
+            ->offset($page * 3)
+            ->limit(3)
+            ->get();
         return view('hello.show', ['items' => $items]);
     }
 }
