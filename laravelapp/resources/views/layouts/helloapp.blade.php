@@ -47,6 +47,7 @@
                 color: #ccc;
             }
         </style>
+        <link rel="stylesheet" type="text/css" href="/css/app.css">
     </head>
     <body>
         <h1>@yield('title')</h1>
